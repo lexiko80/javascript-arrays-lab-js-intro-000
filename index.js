@@ -12,3 +12,5 @@ var destructivelyRemoveFirstKitten = () => (kittens.shift())
 var appendKitten = (name) => (kittens.concat(name))
 
 var prependKitten = (name) => ([name].concat(kittens))
+
+var removeLastKitten = () => (kittens.slice(-1))
